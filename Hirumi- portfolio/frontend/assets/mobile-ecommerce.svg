@@ -1,0 +1,74 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mobile" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bg4)"/>
+  
+  <!-- Phone Frame -->
+  <rect x="300" y="80" width="200" height="400" rx="25" fill="#1f2937" stroke="#374151" stroke-width="3"/>
+  <rect x="310" y="100" width="180" height="360" rx="15" fill="#111827"/>
+  
+  <!-- Phone Screen -->
+  <rect x="315" y="105" width="170" height="350" rx="10" fill="url(#mobile)"/>
+  
+  <!-- App Header -->
+  <rect x="325" y="115" width="150" height="40" rx="8" fill="rgba(255,255,255,0.2)"/>
+  <text x="335" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">E-Commerce App</text>
+  
+  <!-- Product Grid -->
+  <rect x="325" y="170" width="68" height="80" rx="8" fill="rgba(255,255,255,0.3)"/>
+  <rect x="335" y="180" width="48" height="40" rx="4" fill="#fbbf24"/>
+  <text x="340" y="235" font-family="Arial, sans-serif" font-size="10" fill="white">Product 1</text>
+  <text x="340" y="245" font-family="Arial, sans-serif" font-size="8" fill="#e5e7eb">$29.99</text>
+  
+  <rect x="407" y="170" width="68" height="80" rx="8" fill="rgba(255,255,255,0.3)"/>
+  <rect x="417" y="180" width="48" height="40" rx="4" fill="#34d399"/>
+  <text x="422" y="235" font-family="Arial, sans-serif" font-size="10" fill="white">Product 2</text>
+  <text x="422" y="245" font-family="Arial, sans-serif" font-size="8" fill="#e5e7eb">$39.99</text>
+  
+  <rect x="325" y="265" width="68" height="80" rx="8" fill="rgba(255,255,255,0.3)"/>
+  <rect x="335" y="275" width="48" height="40" rx="4" fill="#60a5fa"/>
+  <text x="340" y="330" font-family="Arial, sans-serif" font-size="10" fill="white">Product 3</text>
+  <text x="340" y="340" font-family="Arial, sans-serif" font-size="8" fill="#e5e7eb">$49.99</text>
+  
+  <rect x="407" y="265" width="68" height="80" rx="8" fill="rgba(255,255,255,0.3)"/>
+  <rect x="417" y="275" width="48" height="40" rx="4" fill="#f87171"/>
+  <text x="422" y="330" font-family="Arial, sans-serif" font-size="10" fill="white">Product 4</text>
+  <text x="422" y="340" font-family="Arial, sans-serif" font-size="8" fill="#e5e7eb">$19.99</text>
+  
+  <!-- Bottom Navigation -->
+  <rect x="325" y="380" width="150" height="50" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <circle cx="350" cy="405" r="8" fill="#fbbf24"/>
+  <text x="345" y="410" font-family="Arial, sans-serif" font-size="12" fill="white">🏠</text>
+  
+  <circle cx="400" cy="405" r="8" fill="rgba(255,255,255,0.3)"/>
+  <text x="395" y="410" font-family="Arial, sans-serif" font-size="12" fill="white">🛒</text>
+  
+  <circle cx="450" cy="405" r="8" fill="rgba(255,255,255,0.3)"/>
+  <text x="445" y="410" font-family="Arial, sans-serif" font-size="12" fill="white">👤</text>
+  
+  <!-- Side Content -->
+  <text x="60" y="150" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">Mobile App</text>
+  <text x="60" y="180" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">Development</text>
+  
+  <text x="60" y="220" font-family="Arial, sans-serif" font-size="16" fill="#e5e7eb">✓ React Native</text>
+  <text x="60" y="250" font-family="Arial, sans-serif" font-size="16" fill="#e5e7eb">✓ Cross-platform</text>
+  <text x="60" y="280" font-family="Arial, sans-serif" font-size="16" fill="#e5e7eb">✓ Responsive Design</text>
+  <text x="60" y="310" font-family="Arial, sans-serif" font-size="16" fill="#e5e7eb">✓ Modern UI/UX</text>
+  
+  <text x="550" y="150" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">Features</text>
+  <text x="550" y="190" font-family="Arial, sans-serif" font-size="14" fill="#e5e7eb">🔍 Product Search</text>
+  <text x="550" y="220" font-family="Arial, sans-serif" font-size="14" fill="#e5e7eb">🛒 Shopping Cart</text>
+  <text x="550" y="250" font-family="Arial, sans-serif" font-size="14" fill="#e5e7eb">💳 Payment Gateway</text>
+  <text x="550" y="280" font-family="Arial, sans-serif" font-size="14" fill="#e5e7eb">📱 Push Notifications</text>
+  <text x="550" y="310" font-family="Arial, sans-serif" font-size="14" fill="#e5e7eb">⭐ User Reviews</text>
+</svg>

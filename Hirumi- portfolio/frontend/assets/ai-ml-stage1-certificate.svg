@@ -1,0 +1,83 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8860b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+  
+  <!-- Gold Border Frame -->
+  <rect x="20" y="20" width="760" height="560" rx="15" fill="none" stroke="url(#goldGradient)" stroke-width="8"/>
+  <rect x="40" y="40" width="720" height="520" rx="10" fill="none" stroke="url(#goldGradient)" stroke-width="2"/>
+  
+  <!-- Corner Decorations -->
+  <g fill="url(#goldGradient)">
+    <!-- Top Left -->
+    <polygon points="50,50 120,50 120,60 60,60 60,120 50,120"/>
+    <polygon points="50,50 80,50 80,80 50,80"/>
+    
+    <!-- Top Right -->
+    <polygon points="680,50 750,50 750,120 740,120 740,60 680,60"/>
+    <polygon points="720,50 750,50 750,80 720,80"/>
+    
+    <!-- Bottom Left -->
+    <polygon points="50,480 60,480 60,540 120,540 120,550 50,550"/>
+    <polygon points="50,520 80,520 80,550 50,550"/>
+    
+    <!-- Bottom Right -->
+    <polygon points="740,480 750,480 750,550 680,550 680,540 740,540"/>
+    <polygon points="720,520 750,520 750,550 720,550"/>
+  </g>
+  
+  <!-- Header -->
+  <text x="400" y="120" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2c3e50" text-anchor="middle">CERTIFICATE OF COMPLETION</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="160" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d" text-anchor="middle">This is to certify that</text>
+  
+  <!-- Name -->
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#2980b9" text-anchor="middle">Hirumi Weerasooriya</text>
+  <line x1="200" y1="240" x2="600" y2="240" stroke="#d4af37" stroke-width="2"/>
+  
+  <!-- Course Title -->
+  <text x="400" y="280" font-family="Arial, sans-serif" font-size="18" fill="#2c3e50" text-anchor="middle">Has pursued studies and completed all the requirements of</text>
+  <text x="400" y="320" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2c3e50" text-anchor="middle">AI/ML Engineer - Stage 1</text>
+  
+  <!-- Institution -->
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d" text-anchor="middle">Conducted by the Centre for Open and Distance Education, Faculty of Computing, SLIIT</text>
+  
+  <!-- SLIIT Logo Area -->
+  <rect x="620" y="420" width="120" height="80" rx="10" fill="#f8f9fa" stroke="#2980b9" stroke-width="2"/>
+  <text x="680" y="445" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2980b9" text-anchor="middle">SLIIT UNI</text>
+  <text x="680" y="465" font-family="Arial, sans-serif" font-size="12" fill="#2980b9" text-anchor="middle">THE KNOWLEDGE</text>
+  <text x="680" y="480" font-family="Arial, sans-serif" font-size="12" fill="#2980b9" text-anchor="middle">UNIVERSITY</text>
+  
+  <!-- Industry Engagement Unit Logo Area -->
+  <rect x="60" y="420" width="120" height="80" rx="10" fill="#f8f9fa" stroke="#2980b9" stroke-width="2"/>
+  <text x="120" y="440" font-family="Arial, sans-serif" font-size="10" fill="#2980b9" text-anchor="middle">INDUSTRY</text>
+  <text x="120" y="455" font-family="Arial, sans-serif" font-size="10" fill="#2980b9" text-anchor="middle">ENGAGEMENT</text>
+  <text x="120" y="470" font-family="Arial, sans-serif" font-size="10" fill="#2980b9" text-anchor="middle">UNIT</text>
+  <text x="120" y="485" font-family="Arial, sans-serif" font-size="8" fill="#2980b9" text-anchor="middle">FACULTY OF COMPUTING</text>
+  
+  <!-- Issue Date -->
+  <text x="120" y="530" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Issued: 2024-07-04</text>
+  
+  <!-- Certificate ID -->
+  <text x="680" y="530" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d" text-anchor="end">Certificate ID: aclsxgce0i</text>
+  
+  <!-- Decorative Elements -->
+  <g opacity="0.1" fill="url(#goldGradient)">
+    <circle cx="150" cy="150" r="30"/>
+    <circle cx="650" cy="150" r="25"/>
+    <circle cx="150" cy="450" r="20"/>
+    <circle cx="650" cy="450" r="35"/>
+  </g>
+</svg>

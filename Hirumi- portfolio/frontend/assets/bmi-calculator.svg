@@ -1,0 +1,127 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="appBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:0.95" />
+    </linearGradient>
+    <linearGradient id="buttonBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#appBg)"/>
+  
+  <!-- Phone Frame -->
+  <rect x="250" y="50" width="300" height="500" rx="30" fill="#2c3e50" stroke="#34495e" stroke-width="3"/>
+  
+  <!-- Screen -->
+  <rect x="270" y="80" width="260" height="440" rx="20" fill="#ecf0f1"/>
+  
+  <!-- Status Bar -->
+  <rect x="270" y="80" width="260" height="30" rx="20" fill="#3498db"/>
+  <text x="290" y="100" font-family="Arial, sans-serif" font-size="12" fill="white">9:41 AM</text>
+  <text x="500" y="100" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="end">100%</text>
+  
+  <!-- App Header -->
+  <rect x="270" y="110" width="260" height="50" fill="#2980b9"/>
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">BMI Calculator</text>
+  
+  <!-- Main Content Card -->
+  <rect x="290" y="180" width="220" height="280" rx="15" fill="url(#cardBg)" stroke="#bdc3c7" stroke-width="1"/>
+  
+  <!-- BMI Input Section -->
+  <text x="400" y="210" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">Calculate Your BMI</text>
+  
+  <!-- Height Input -->
+  <text x="310" y="235" font-family="Arial, sans-serif" font-size="14" fill="#34495e">Height (cm)</text>
+  <rect x="310" y="240" width="180" height="35" rx="8" fill="white" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="320" y="260" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">175</text>
+  
+  <!-- Weight Input -->
+  <text x="310" y="290" font-family="Arial, sans-serif" font-size="14" fill="#34495e">Weight (kg)</text>
+  <rect x="310" y="295" width="180" height="35" rx="8" fill="white" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="320" y="315" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">70</text>
+  
+  <!-- Calculate Button -->
+  <rect x="310" y="345" width="180" height="40" rx="20" fill="url(#buttonBg)"/>
+  <text x="400" y="368" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Calculate BMI</text>
+  
+  <!-- Result Section -->
+  <rect x="310" y="395" width="180" height="50" rx="10" fill="#e8f5e8" stroke="#27ae60" stroke-width="2"/>
+  <text x="400" y="415" font-family="Arial, sans-serif" font-size="14" fill="#27ae60" text-anchor="middle">Your BMI</text>
+  <text x="400" y="435" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#27ae60" text-anchor="middle">22.9</text>
+  
+  <!-- BMI Category -->
+  <text x="400" y="470" font-family="Arial, sans-serif" font-size="14" fill="#27ae60" text-anchor="middle">Normal Weight</text>
+  
+  <!-- BMI Scale Indicator -->
+  <g transform="translate(310, 480)">
+    <!-- Scale Background -->
+    <rect x="0" y="0" width="180" height="20" rx="10" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    
+    <!-- Scale Segments -->
+    <rect x="0" y="0" width="36" height="20" rx="10" fill="#3498db"/> <!-- Underweight -->
+    <rect x="36" y="0" width="72" height="20" fill="#27ae60"/> <!-- Normal -->
+    <rect x="108" y="0" width="36" height="20" fill="#f39c12"/> <!-- Overweight -->
+    <rect x="144" y="0" width="36" height="20" rx="10" fill="#e74c3c"/> <!-- Obese -->
+    
+    <!-- Current BMI Indicator -->
+    <circle cx="80" cy="10" r="6" fill="#2c3e50" stroke="white" stroke-width="2"/>
+  </g>
+  
+  <!-- Navigation Tabs -->
+  <rect x="270" y="490" width="260" height="30" fill="#34495e"/>
+  <g fill="#95a5a6">
+    <rect x="290" y="500" width="50" height="3" rx="1.5"/>
+    <rect x="350" y="500" width="50" height="3" rx="1.5"/>
+    <rect x="410" y="500" width="50" height="3" rx="1.5"/>
+    <rect x="470" y="500" width="50" height="3" rx="1.5"/>
+  </g>
+  <rect x="350" y="500" width="50" height="3" rx="1.5" fill="#3498db"/>
+  
+  <!-- Feature Icons -->
+  <g stroke="#7f8c8d" stroke-width="2" fill="none">
+    <!-- Calculator Icon -->
+    <rect x="85" y="250" width="40" height="50" rx="5"/>
+    <line x1="90" y1="260" x2="120" y2="260"/>
+    <line x1="90" y1="270" x2="120" y2="270"/>
+    <line x1="90" y1="280" x2="120" y2="280"/>
+    <line x1="90" y1="290" x2="120" y2="290"/>
+  </g>
+  
+  <!-- Health Icon -->
+  <g stroke="#e74c3c" stroke-width="3" fill="#e74c3c">
+    <path d="M 650 260 C 645 255, 635 255, 630 260 C 625 255, 615 255, 610 260 C 610 265, 615 270, 630 285 C 645 270, 650 265, 650 260 Z"/>
+  </g>
+  
+  <!-- Mobile Features -->
+  <text x="90" y="350" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Features:</text>
+  <text x="90" y="370" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">• Real-time calculation</text>
+  <text x="90" y="385" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">• BMI categories</text>
+  <text x="90" y="400" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">• Health recommendations</text>
+  <text x="90" y="415" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">• History tracking</text>
+  
+  <!-- Technology Stack -->
+  <text x="630" y="350" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Tech Stack:</text>
+  <text x="630" y="370" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">• Android (Kotlin)</text>
+  <text x="630" y="385" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">• Material Design</text>
+  <text x="630" y="400" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">• Room Database</text>
+  <text x="630" y="415" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">• MVVM Architecture</text>
+  
+  <!-- App Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50" text-anchor="middle">BMI Calculator Mobile App</text>
+  
+  <!-- Decorative Elements -->
+  <g opacity="0.3">
+    <circle cx="150" cy="150" r="30" fill="#3498db"/>
+    <circle cx="650" cy="150" r="25" fill="#e74c3c"/>
+    <circle cx="100" cy="500" r="20" fill="#27ae60"/>
+    <circle cx="700" cy="500" r="35" fill="#f39c12"/>
+  </g>
+</svg>

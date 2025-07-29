@@ -1,0 +1,102 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chart1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chart2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bg5)"/>
+  
+  <!-- Header -->
+  <rect x="40" y="40" width="720" height="70" rx="8" fill="rgba(255,255,255,0.05)"/>
+  <text x="60" y="85" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">Data Analytics Dashboard</text>
+  
+  <!-- Stats Cards -->
+  <rect x="40" y="130" width="170" height="100" rx="12" fill="url(#chart1)"/>
+  <text x="60" y="160" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">2.4M</text>
+  <text x="60" y="180" font-family="Arial, sans-serif" font-size="14" fill="white">Total Users</text>
+  <text x="60" y="200" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">↗️ +12.5% this month</text>
+  <text x="60" y="215" font-family="Arial, sans-serif" font-size="10" fill="rgba(255,255,255,0.6)">compared to last month</text>
+  
+  <rect x="230" y="130" width="170" height="100" rx="12" fill="#f59e0b"/>
+  <text x="250" y="160" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">156K</text>
+  <text x="250" y="180" font-family="Arial, sans-serif" font-size="14" fill="white">Sessions</text>
+  <text x="250" y="200" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">↗️ +8.2% today</text>
+  <text x="250" y="215" font-family="Arial, sans-serif" font-size="10" fill="rgba(255,255,255,0.6)">vs yesterday</text>
+  
+  <rect x="420" y="130" width="170" height="100" rx="12" fill="#ef4444"/>
+  <text x="440" y="160" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">68.7%</text>
+  <text x="440" y="180" font-family="Arial, sans-serif" font-size="14" fill="white">Conversion Rate</text>
+  <text x="440" y="200" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">↗️ +2.1%</text>
+  <text x="440" y="215" font-family="Arial, sans-serif" font-size="10" fill="rgba(255,255,255,0.6)">improvement</text>
+  
+  <rect x="610" y="130" width="150" height="100" rx="12" fill="url(#chart2)"/>
+  <text x="630" y="160" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">$89K</text>
+  <text x="630" y="180" font-family="Arial, sans-serif" font-size="14" fill="white">Revenue</text>
+  <text x="630" y="200" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">↗️ +15.3%</text>
+  <text x="630" y="215" font-family="Arial, sans-serif" font-size="10" fill="rgba(255,255,255,0.6)">this quarter</text>
+  
+  <!-- Main Chart Area -->
+  <rect x="40" y="250" width="460" height="280" rx="12" fill="rgba(255,255,255,0.05)"/>
+  <text x="60" y="280" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">User Analytics Trends</text>
+  
+  <!-- Chart Grid -->
+  <g stroke="rgba(255,255,255,0.1)" stroke-width="1">
+    <line x1="70" y1="300" x2="480" y2="300"/>
+    <line x1="70" y1="350" x2="480" y2="350"/>
+    <line x1="70" y1="400" x2="480" y2="400"/>
+    <line x1="70" y1="450" x2="480" y2="450"/>
+    <line x1="70" y1="500" x2="480" y2="500"/>
+  </g>
+  
+  <!-- Chart Lines -->
+  <polyline points="70,450 120,400 170,380 220,360 270,340 320,320 370,300 420,280 470,260" 
+            fill="none" stroke="url(#chart1)" stroke-width="3"/>
+  <polyline points="70,480 120,460 170,440 220,420 270,400 320,380 370,360 420,340 470,320" 
+            fill="none" stroke="#f59e0b" stroke-width="3"/>
+  
+  <!-- Chart Points -->
+  <circle cx="470" cy="260" r="4" fill="url(#chart1)"/>
+  <circle cx="470" cy="320" r="4" fill="#f59e0b"/>
+  
+  <!-- Legend -->
+  <rect x="60" y="510" width="12" height="3" fill="url(#chart1)"/>
+  <text x="80" y="518" font-family="Arial, sans-serif" font-size="12" fill="white">Active Users</text>
+  <rect x="180" y="510" width="12" height="3" fill="#f59e0b"/>
+  <text x="200" y="518" font-family="Arial, sans-serif" font-size="12" fill="white">New Signups</text>
+  
+  <!-- Side Panel -->
+  <rect x="520" y="250" width="240" height="280" rx="12" fill="rgba(255,255,255,0.05)"/>
+  <text x="540" y="280" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Top Performing Pages</text>
+  
+  <!-- Page List -->
+  <rect x="540" y="300" width="200" height="35" rx="6" fill="rgba(255,255,255,0.1)"/>
+  <text x="550" y="315" font-family="Arial, sans-serif" font-size="12" fill="white">/dashboard</text>
+  <text x="550" y="330" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">45,231 views • 68% conversion</text>
+  
+  <rect x="540" y="345" width="200" height="35" rx="6" fill="rgba(255,255,255,0.1)"/>
+  <text x="550" y="360" font-family="Arial, sans-serif" font-size="12" fill="white">/products</text>
+  <text x="550" y="375" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">38,942 views • 52% conversion</text>
+  
+  <rect x="540" y="390" width="200" height="35" rx="6" fill="rgba(255,255,255,0.1)"/>
+  <text x="550" y="405" font-family="Arial, sans-serif" font-size="12" fill="white">/checkout</text>
+  <text x="550" y="420" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">28,156 views • 89% conversion</text>
+  
+  <rect x="540" y="435" width="200" height="35" rx="6" fill="rgba(255,255,255,0.1)"/>
+  <text x="550" y="450" font-family="Arial, sans-serif" font-size="12" fill="white">/profile</text>
+  <text x="550" y="465" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">22,847 views • 34% conversion</text>
+  
+  <rect x="540" y="480" width="200" height="35" rx="6" fill="rgba(255,255,255,0.1)"/>
+  <text x="550" y="495" font-family="Arial, sans-serif" font-size="12" fill="white">/support</text>
+  <text x="550" y="510" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">18,293 views • 76% resolution</text>
+</svg>

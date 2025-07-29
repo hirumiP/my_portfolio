@@ -1,0 +1,182 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="gameBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffff00;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffff00;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#gameBg)"/>
+  
+  <!-- Game Frame -->
+  <rect x="150" y="80" width="500" height="440" rx="25" fill="#0f0f23" stroke="#00ff00" stroke-width="3"/>
+  
+  <!-- Screen -->
+  <rect x="170" y="100" width="460" height="340" rx="15" fill="#000012"/>
+  
+  <!-- Game Title -->
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffff00" text-anchor="middle">PAC-MAN</text>
+  
+  <!-- Game Maze Background -->
+  <rect x="190" y="160" width="420" height="260" rx="10" fill="#000080"/>
+  
+  <!-- Maze Walls (simplified) -->
+  <g stroke="#0000ff" stroke-width="4" fill="none">
+    <!-- Outer walls -->
+    <rect x="200" y="170" width="400" height="240"/>
+    
+    <!-- Inner maze structure -->
+    <line x1="240" y1="190" x2="280" y2="190"/>
+    <line x1="320" y1="190" x2="360" y2="190"/>
+    <line x1="400" y1="190" x2="440" y2="190"/>
+    <line x1="480" y1="190" x2="520" y2="190"/>
+    <line x1="560" y1="190" x2="580" y2="190"/>
+    
+    <line x1="220" y1="220" x2="260" y2="220"/>
+    <line x1="300" y1="220" x2="340" y2="220"/>
+    <line x1="380" y1="220" x2="420" y2="220"/>
+    <line x1="460" y1="220" x2="500" y2="220"/>
+    <line x1="540" y1="220" x2="580" y2="220"/>
+    
+    <line x1="240" y1="250" x2="280" y2="250"/>
+    <line x1="320" y1="250" x2="360" y2="250"/>
+    <line x1="400" y1="250" x2="440" y2="250"/>
+    <line x1="480" y1="250" x2="520" y2="250"/>
+    
+    <line x1="220" y1="280" x2="260" y2="280"/>
+    <line x1="300" y1="280" x2="340" y2="280"/>
+    <line x1="380" y1="280" x2="420" y2="280"/>
+    <line x1="460" y1="280" x2="500" y2="280"/>
+    <line x1="540" y1="280" x2="580" y2="280"/>
+    
+    <line x1="240" y1="310" x2="280" y2="310"/>
+    <line x1="320" y1="310" x2="360" y2="310"/>
+    <line x1="400" y1="310" x2="440" y2="310"/>
+    <line x1="480" y1="310" x2="520" y2="310"/>
+    
+    <line x1="220" y1="340" x2="260" y2="340"/>
+    <line x1="300" y1="340" x2="340" y2="340"/>
+    <line x1="380" y1="340" x2="420" y2="340"/>
+    <line x1="460" y1="340" x2="500" y2="340"/>
+    <line x1="540" y1="340" x2="580" y2="340"/>
+    
+    <line x1="240" y1="370" x2="280" y2="370"/>
+    <line x1="320" y1="370" x2="360" y2="370"/>
+    <line x1="400" y1="370" x2="440" y2="370"/>
+    <line x1="480" y1="370" x2="520" y2="370"/>
+    <line x1="560" y1="370" x2="580" y2="370"/>
+  </g>
+  
+  <!-- Pac-Man Character -->
+  <g>
+    <circle cx="250" cy="280" r="15" fill="#ffff00"/>
+    <path d="M 250 265 L 265 280 L 250 295 Z" fill="#000012"/>
+    <circle cx="250" cy="280" r="20" fill="url(#glow)" opacity="0.6"/>
+  </g>
+  
+  <!-- Dots -->
+  <g fill="#ffff00">
+    <circle cx="220" cy="200" r="2"/>
+    <circle cx="240" cy="200" r="2"/>
+    <circle cx="260" cy="200" r="2"/>
+    <circle cx="300" cy="200" r="2"/>
+    <circle cx="320" cy="200" r="2"/>
+    <circle cx="340" cy="200" r="2"/>
+    <circle cx="380" cy="200" r="2"/>
+    <circle cx="400" cy="200" r="2"/>
+    <circle cx="420" cy="200" r="2"/>
+    <circle cx="460" cy="200" r="2"/>
+    <circle cx="480" cy="200" r="2"/>
+    <circle cx="500" cy="200" r="2"/>
+    <circle cx="540" cy="200" r="2"/>
+    <circle cx="560" cy="200" r="2"/>
+    <circle cx="580" cy="200" r="2"/>
+    
+    <circle cx="210" cy="230" r="2"/>
+    <circle cx="230" cy="230" r="2"/>
+    <circle cx="270" cy="230" r="2"/>
+    <circle cx="290" cy="230" r="2"/>
+    <circle cx="350" cy="230" r="2"/>
+    <circle cx="370" cy="230" r="2"/>
+    <circle cx="430" cy="230" r="2"/>
+    <circle cx="450" cy="230" r="2"/>
+    <circle cx="510" cy="230" r="2"/>
+    <circle cx="530" cy="230" r="2"/>
+    <circle cx="570" cy="230" r="2"/>
+    <circle cx="590" cy="230" r="2"/>
+  </g>
+  
+  <!-- Power Pellets -->
+  <g fill="#ffff00">
+    <circle cx="210" cy="180" r="6">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="590" cy="180" r="6">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="210" cy="390" r="6">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="590" cy="390" r="6">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Ghosts -->
+  <!-- Red Ghost (Blinky) -->
+  <g>
+    <path d="M 480 250 Q 480 235 495 235 Q 510 235 510 250 L 510 270 L 505 275 L 500 270 L 495 275 L 490 270 L 485 275 L 480 270 Z" fill="#ff0000"/>
+    <circle cx="488" cy="245" r="3" fill="white"/>
+    <circle cx="502" cy="245" r="3" fill="white"/>
+    <circle cx="487" cy="245" r="1.5" fill="black"/>
+    <circle cx="501" cy="245" r="1.5" fill="black"/>
+  </g>
+  
+  <!-- Pink Ghost (Pinky) -->
+  <g>
+    <path d="M 520 320 Q 520 305 535 305 Q 550 305 550 320 L 550 340 L 545 345 L 540 340 L 535 345 L 530 340 L 525 345 L 520 340 Z" fill="#ffb6c1"/>
+    <circle cx="528" cy="315" r="3" fill="white"/>
+    <circle cx="542" cy="315" r="3" fill="white"/>
+    <circle cx="527" cy="315" r="1.5" fill="black"/>
+    <circle cx="541" cy="315" r="1.5" fill="black"/>
+  </g>
+  
+  <!-- Game UI -->
+  <rect x="170" y="450" width="460" height="60" rx="10" fill="#1a1a2e"/>
+  
+  <!-- Score -->
+  <text x="190" y="475" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffff00">SCORE</text>
+  <text x="190" y="495" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">24,680</text>
+  
+  <!-- High Score -->
+  <text x="320" y="475" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffff00">HIGH SCORE</text>
+  <text x="320" y="495" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">89,420</text>
+  
+  <!-- Lives -->
+  <text x="520" y="475" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffff00">LIVES</text>
+  <g fill="#ffff00">
+    <circle cx="530" cy="490" r="8"/>
+    <path d="M 530 482 L 538 490 L 530 498 Z" fill="#1a1a2e"/>
+    <circle cx="550" cy="490" r="8"/>
+    <path d="M 550 482 L 558 490 L 550 498 Z" fill="#1a1a2e"/>
+    <circle cx="570" cy="490" r="8"/>
+    <path d="M 570 482 L 578 490 L 570 498 Z" fill="#1a1a2e"/>
+  </g>
+  
+  <!-- Game Controls Hint -->
+  <text x="70" y="550" font-family="Arial, sans-serif" font-size="14" fill="#00ff00">Controls:</text>
+  <text x="70" y="570" font-family="Arial, sans-serif" font-size="12" fill="white">Arrow Keys to Move</text>
+  
+  <!-- Firebase Integration -->
+  <text x="680" y="550" font-family="Arial, sans-serif" font-size="14" fill="#ffa500">Firebase:</text>
+  <text x="680" y="570" font-family="Arial, sans-serif" font-size="12" fill="white">Cloud Save</text>
+  
+  <!-- Android Platform -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="14" fill="#a4c639" text-anchor="middle">Android Game</text>
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Kotlin Development</text>
+</svg>

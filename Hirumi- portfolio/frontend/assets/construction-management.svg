@@ -1,0 +1,62 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E3440;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B4252;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8E53;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Header -->
+  <rect x="40" y="40" width="720" height="80" rx="8" fill="#4C566A"/>
+  <text x="60" y="90" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">Construction Management Dashboard</text>
+  
+  <!-- Navigation -->
+  <rect x="40" y="140" width="150" height="400" rx="8" fill="#434C5E"/>
+  <text x="60" y="170" font-family="Arial, sans-serif" font-size="16" fill="#D8DEE9">Navigation</text>
+  <rect x="60" y="190" width="110" height="30" rx="4" fill="url(#orange)"/>
+  <text x="70" y="210" font-family="Arial, sans-serif" font-size="14" fill="white">Projects</text>
+  <rect x="60" y="230" width="110" height="30" rx="4" fill="#5E81AC"/>
+  <text x="70" y="250" font-family="Arial, sans-serif" font-size="14" fill="white">Workers</text>
+  <rect x="60" y="270" width="110" height="30" rx="4" fill="#5E81AC"/>
+  <text x="70" y="290" font-family="Arial, sans-serif" font-size="14" fill="white">Materials</text>
+  <rect x="60" y="310" width="110" height="30" rx="4" fill="#5E81AC"/>
+  <text x="70" y="330" font-family="Arial, sans-serif" font-size="14" fill="white">Budget</text>
+  
+  <!-- Main Content -->
+  <rect x="210" y="140" width="550" height="400" rx="8" fill="#434C5E"/>
+  
+  <!-- Stats Cards -->
+  <rect x="230" y="170" width="120" height="80" rx="6" fill="url(#orange)"/>
+  <text x="240" y="200" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">25</text>
+  <text x="240" y="220" font-family="Arial, sans-serif" font-size="12" fill="white">Active Projects</text>
+  
+  <rect x="370" y="170" width="120" height="80" rx="6" fill="#A3BE8C"/>
+  <text x="380" y="200" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">152</text>
+  <text x="380" y="220" font-family="Arial, sans-serif" font-size="12" fill="white">Workers</text>
+  
+  <rect x="510" y="170" width="120" height="80" rx="6" fill="#EBCB8B"/>
+  <text x="520" y="200" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">$2.5M</text>
+  <text x="520" y="220" font-family="Arial, sans-serif" font-size="12" fill="white">Total Budget</text>
+  
+  <!-- Chart Area -->
+  <rect x="230" y="270" width="500" height="200" rx="6" fill="#3B4252"/>
+  <text x="250" y="300" font-family="Arial, sans-serif" font-size="16" fill="#D8DEE9">Project Progress Chart</text>
+  
+  <!-- Chart bars -->
+  <rect x="280" y="360" width="30" height="80" fill="url(#orange)"/>
+  <rect x="330" y="340" width="30" height="100" fill="#A3BE8C"/>
+  <rect x="380" y="380" width="30" height="60" fill="#EBCB8B"/>
+  <rect x="430" y="320" width="30" height="120" fill="#81A1C1"/>
+  <rect x="480" y="350" width="30" height="90" fill="#B48EAD"/>
+  
+  <!-- Icons -->
+  <circle cx="680" cy="180" r="15" fill="#FF6B6B"/>
+  <text x="675" y="185" font-family="Arial, sans-serif" font-size="12" fill="white">🏗️</text>
+</svg>
