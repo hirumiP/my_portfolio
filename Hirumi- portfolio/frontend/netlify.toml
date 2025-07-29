@@ -10,11 +10,10 @@
   NODE_VERSION = "18"
 
 [[redirects]]
-  # Handle client-side routing (if you add SPA features later)
+  # Handle client-side routing and ensure index.html is served for all routes
   from = "/*"
   to = "/index.html"
   status = 200
-  conditions = {Role = ["admin"], Country = ["US"]}
 
 # Custom headers for security and performance
 [[headers]]
