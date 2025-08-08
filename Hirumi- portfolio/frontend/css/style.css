@@ -117,6 +117,7 @@ body::after {
 .nav-link:hover,
 .nav-link.active {
     color: #2b6cb0;
+    text-shadow: 0 0 2px rgba(43, 108, 176, 0.3);
 }
 
 .nav-link::after {
@@ -133,6 +134,7 @@ body::after {
 .nav-link:hover::after,
 .nav-link.active::after {
     width: 100%;
+    background-color: #ff6b6b;
 }
 
 .hamburger {
@@ -1748,13 +1750,16 @@ body::after {
     }
 }
 
-/* Enhanced Feminine Styles */
+/* Enhanced Navigation Styles */
 .nav-link.active {
-    color: #ff6b6b !important;
+    color: #2b6cb0 !important;
+    font-weight: 600 !important;
+    text-shadow: 0 0 3px rgba(43, 108, 176, 0.4) !important;
 }
 
 .nav-link.active::after {
     width: 100% !important;
+    background-color: #ff6b6b !important;
 }
 
 body.loaded {

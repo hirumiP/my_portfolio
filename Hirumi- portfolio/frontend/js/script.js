@@ -159,10 +159,10 @@ document.addEventListener('DOMContentLoaded', function() {
             link.classList.remove('active');
             if (link.getAttribute('href') === `#${currentSection}`) {
                 link.classList.add('active');
-                // Add glow effect to active link
-                link.style.textShadow = '0 0 10px #ff6b6b';
+                // Add glow effect to active link with better visibility
+                link.style.textShadow = '0 0 8px rgba(43, 108, 176, 0.6)';
             } else {
-                link.style.textShadow = 'none';
+                link.style.textShadow = '';
             }
         });
     });
@@ -304,8 +304,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         .nav-link.active {
-            color: #ff6b6b !important;
-            transform: scale(1.1);
+            color: #2b6cb0 !important;
+            transform: scale(1.05);
+            font-weight: 600 !important;
         }
         
         .nav-link.active::after {
