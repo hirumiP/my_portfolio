@@ -1784,6 +1784,7 @@ body.loaded {
     overflow: hidden;
 }
 
+/*
 .particle {
     position: absolute;
     width: 4px;
@@ -1809,8 +1810,6 @@ body.loaded {
     background: rgba(255, 107, 107, 0.7);
     animation-duration: 20s;
 }
-
-@keyframes floatParticles {
 */
 
 /*

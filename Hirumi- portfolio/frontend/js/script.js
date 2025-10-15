@@ -72,8 +72,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 entry.target.style.opacity = '1';
                 entry.target.style.transform = 'translateY(0) scale(1)';
                 
-                // Add sparkle effect when element appears
-                createSparkleEffect(entry.target);
+                // Sparkle effect disabled for cleaner design
+                // createSparkleEffect(entry.target);
             }
         });
     }, observerOptions);
@@ -121,8 +121,8 @@ document.addEventListener('DOMContentLoaded', function() {
             // Show magical success message
             showNotification('✨ Thank you for your message! Your email client should open now. ✨', 'success');
             
-            // Create celebration effect
-            createCelebrationEffect();
+            // Celebration effect disabled for cleaner design
+            // createCelebrationEffect();
             
             // Reset form with animation
             this.style.animation = 'bounceOut 0.5s ease';
@@ -167,8 +167,8 @@ document.addEventListener('DOMContentLoaded', function() {
             this.style.transform = 'translateY(-8px) scale(1.15) rotate(5deg)';
             this.style.boxShadow = '0 15px 30px rgba(255, 107, 107, 0.6)';
             
-            // Create sparkle effect on hover
-            createSparkleEffect(this);
+            // Sparkle effect disabled for cleaner design
+            // createSparkleEffect(this);
         });
         
         tag.addEventListener('mouseleave', function() {
@@ -248,8 +248,8 @@ document.addEventListener('DOMContentLoaded', function() {
             this.style.border = '2px solid #ff6b6b';
             this.style.animation = 'rainbowBorder 2s linear infinite';
             
-            // Create magical particles around the card
-            createCardParticles(this);
+            // Card particles disabled for cleaner design
+            // createCardParticles(this);
         });
         
         card.addEventListener('mouseleave', function() {
@@ -266,10 +266,10 @@ document.addEventListener('DOMContentLoaded', function() {
             if (entry.isIntersecting) {
                 entry.target.classList.add('section-visible');
                 
-                // Add section-specific effects
-                if (entry.target.classList.contains('hero')) {
-                    createHeroParticles();
-                }
+                // Hero particles disabled for cleaner design
+                // if (entry.target.classList.contains('hero')) {
+                //     createHeroParticles();
+                // }
             }
         });
     }, {
