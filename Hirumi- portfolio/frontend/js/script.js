@@ -1,17 +1,11 @@
 // Colorful Portfolio JavaScript with Amazing Animations
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Create magical particle system
-    createParticleSystem();
-    
-    // Create floating hearts
-    createFloatingHearts();
-    
-    // Create bubble effects
-    createBubbleEffects();
-    
-    // Add sparkle trail on mouse move
-    createSparkleTrail();
+    // Flying shapes removed for cleaner design
+    // createParticleSystem();
+    // createFloatingHearts();
+    // createBubbleEffects();
+    // createSparkleTrail();
     
     // Mobile Navigation Toggle
     const hamburger = document.getElementById('hamburger');

@@ -1771,7 +1771,8 @@ body.loaded {
     transition: opacity 0.3s;
 }
 
-/* Magical Particle Effects */
+/* Magical Particle Effects - DISABLED */
+/*
 .particles {
     position: fixed;
     top: 0;
@@ -1810,6 +1811,10 @@ body.loaded {
 }
 
 @keyframes floatParticles {
+*/
+
+/*
+@keyframes floatParticles {
     0% {
         transform: translateY(100vh) translateX(0) rotate(0deg);
         opacity: 0;
@@ -1825,8 +1830,10 @@ body.loaded {
         opacity: 0;
     }
 }
+*/
 
-/* Floating Hearts */
+/* Floating Hearts - DISABLED */
+/*
 .floating-hearts {
     position: fixed;
     top: 0;
@@ -1874,6 +1881,7 @@ body.loaded {
         opacity: 0;
     }
 }
+*/
 
 /* Rainbow Border Animation */
 @keyframes rainbowBorder {
@@ -1900,7 +1908,8 @@ body.loaded {
     }
 }
 
-/* Bubble Animation */
+/* Bubble Animation - DISABLED */
+/*
 .bubbles {
     position: absolute;
     top: 0;
@@ -1955,8 +1964,10 @@ body.loaded {
         opacity: 0;
     }
 }
+*/
 
-/* Magic Sparkle Trail */
+/* Magic Sparkle Trail - DISABLED */
+/*
 .sparkle-trail {
     position: fixed;
     pointer-events: none;
@@ -1971,6 +1982,9 @@ body.loaded {
 }
 
 @keyframes sparkleAnimation {
+*/
+/*
+@keyframes sparkleAnimation {
     0% {
         transform: scale(0) rotate(0deg);
         opacity: 1;
@@ -1984,6 +1998,7 @@ body.loaded {
         opacity: 0;
     }
 }
+*/
 
 /* CSS for enhanced section titles */
 .section-title {
