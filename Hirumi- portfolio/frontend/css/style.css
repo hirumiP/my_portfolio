@@ -299,6 +299,11 @@ body::after {
     opacity: 0.95;
 }
 
+.hero-description {
+    color: #6b7280 !important;
+    opacity: 0.85;
+}
+
 @keyframes shimmerText {
     0%, 100% { transform: translateX(-100%); }
     50% { transform: translateX(100%); }
